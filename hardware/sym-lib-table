@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name LinkMeBaby)(type Legacy)(uri /home/connor/workspace/gameboy/LinkMeBaby/hardware/library/LinkMeBaby/LinkMeBaby.lib)(options "")(descr ""))
+  (lib (name SN74LVC4245APWR)(type Legacy)(uri /home/connor/workspace/gameboy/LinkMeBaby/hardware/library/SN74LVC4245APWR/SN74LVC4245APWR.lib)(options "")(descr ""))
+  (lib (name LinkMeBaby-rescue)(type Legacy)(uri ${KIPRJMOD}/LinkMeBaby-rescue.lib)(options "")(descr ""))
+  (lib (name STM)(type Legacy)(uri /home/connor/workspace/gameboy/LinkMeBaby/hardware/library/MCU_ST/MCU_ST_STM32F4.lib)(options "")(descr ""))
+)

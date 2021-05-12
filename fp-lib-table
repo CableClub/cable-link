@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name SN74LVC4245APWR)(type KiCad)(uri /home/connor/workspace/gameboy/LinkMeBaby/SN74LVC4245APWR)(options "")(descr ""))
-  (lib (name LinkMeBaby)(type KiCad)(uri ${KIPRJMOD}/LinkMeBaby.pretty)(options "")(descr ""))
-)
