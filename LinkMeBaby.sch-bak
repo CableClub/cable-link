@@ -27,19 +27,6 @@ F 5 "USB-C-SMD_10P-P1.00-L6.8-W8.9" H 1050 1550 50  0001 C CNN "LCSC_FP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LinkMeBaby-rescue:STM32F407VETx-MCU_ST_STM32F4 U3
-U 1 1 609AEAB3
-P 5700 3700
-F 0 "U3" H 6350 6300 50  0000 C CNN
-F 1 "STM32F407VET6" H 6300 1050 50  0000 C CNN
-F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 5000 1100 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 5700 3700 50  0001 C CNN
-F 4 "C28730" H 5700 3700 50  0001 C CNN "LCSC_PN"
-F 5 "LQFP-100_14.0x14.0x0.5P" H 5700 3700 50  0001 C CNN "LCSC_FP"
-	1    5700 3700
-	1    0    0    -1  
-$EndComp
-$Comp
 L LinkMeBaby-rescue:C_Small-Device C4
 U 1 1 609B1E85
 P 8150 4850
@@ -55,14 +42,14 @@ $EndComp
 $Comp
 L LinkMeBaby-rescue:C_Small-Device C1
 U 1 1 609B2190
-P 4100 2150
-F 0 "C1" H 4192 2196 50  0000 L CNN
-F 1 "2.2u" H 4192 2105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 4100 2150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1810271109_Samsung-Electro-Mechanics-CL10A225KO8NNNC_C23630.pdf" H 4100 2150 50  0001 C CNN
-F 4 "C23630" H 4100 2150 50  0001 C CNN "LCSC_PN"
-F 5 "0603" H 4100 2150 50  0001 C CNN "LCSC_FP"
-	1    4100 2150
+P 3550 2250
+F 0 "C1" H 3642 2296 50  0000 L CNN
+F 1 "2.2u" H 3642 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 3550 2250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810271109_Samsung-Electro-Mechanics-CL10A225KO8NNNC_C23630.pdf" H 3550 2250 50  0001 C CNN
+F 4 "C23630" H 3550 2250 50  0001 C CNN "LCSC_PN"
+F 5 "0603" H 3550 2250 50  0001 C CNN "LCSC_FP"
+	1    3550 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -118,55 +105,16 @@ F 5 "0402" H 8500 4850 50  0001 C CNN "LCSC_FP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LinkMeBaby-rescue:C_Small-Device C13
-U 1 1 609BFFD8
-P 9550 4850
-F 0 "C13" H 9642 4896 50  0000 L CNN
-F 1 "100n" H 9642 4805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9550 4850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 9550 4850 50  0001 C CNN
-F 4 "C1525" H 9550 4850 50  0001 C CNN "LCSC_PN"
-F 5 "0402" H 9550 4850 50  0001 C CNN "LCSC_FP"
-	1    9550 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L LinkMeBaby-rescue:C_Small-Device C14
-U 1 1 609C02B7
-P 9900 4850
-F 0 "C14" H 9992 4896 50  0000 L CNN
-F 1 "100n" H 9992 4805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9900 4850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 9900 4850 50  0001 C CNN
-F 4 "C1525" H 9900 4850 50  0001 C CNN "LCSC_PN"
-F 5 "0402" H 9900 4850 50  0001 C CNN "LCSC_FP"
-	1    9900 4850
-	1    0    0    -1  
-$EndComp
-$Comp
 L LinkMeBaby-rescue:C_Small-Device C2
 U 1 1 609C7377
-P 4450 2150
-F 0 "C2" H 4542 2196 50  0000 L CNN
-F 1 "2.2u" H 4542 2105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 4450 2150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1810271109_Samsung-Electro-Mechanics-CL10A225KO8NNNC_C23630.pdf" H 4450 2150 50  0001 C CNN
-F 4 "C23630" H 4450 2150 50  0001 C CNN "LCSC_PN"
-F 5 "0603" H 4450 2150 50  0001 C CNN "LCSC_FP"
-	1    4450 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L LinkMeBaby-rescue:C_Small-Device C15
-U 1 1 609CE440
-P 10250 4850
-F 0 "C15" H 10342 4896 50  0000 L CNN
-F 1 "100n" H 10342 4805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10250 4850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 10250 4850 50  0001 C CNN
-F 4 "C1525" H 10250 4850 50  0001 C CNN "LCSC_PN"
-F 5 "0402" H 10250 4850 50  0001 C CNN "LCSC_FP"
-	1    10250 4850
+P 3900 2250
+F 0 "C2" H 3992 2296 50  0000 L CNN
+F 1 "2.2u" H 3992 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 3900 2250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810271109_Samsung-Electro-Mechanics-CL10A225KO8NNNC_C23630.pdf" H 3900 2250 50  0001 C CNN
+F 4 "C23630" H 3900 2250 50  0001 C CNN "LCSC_PN"
+F 5 "0603" H 3900 2250 50  0001 C CNN "LCSC_FP"
+	1    3900 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -268,27 +216,27 @@ Connection ~ 9300 5850
 $Comp
 L LinkMeBaby-rescue:USBLC6-2SC6-Power_Protection U2
 U 1 1 609F07E5
-P 2600 2700
-F 0 "U2" H 2850 3100 50  0000 C CNN
-F 1 "USBLC6-2SC6" H 2950 2350 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2600 2200 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 2800 3050 50  0001 C CNN
-F 4 "C7519" H 2600 2700 50  0001 C CNN "LCSC_PN"
-F 5 "SOT-23-6L" H 2600 2700 50  0001 C CNN "LCSC_FP"
-	1    2600 2700
+P 2450 2850
+F 0 "U2" H 2700 3250 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 2800 2500 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2450 2350 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 2650 3200 50  0001 C CNN
+F 4 "C7519" H 2450 2850 50  0001 C CNN "LCSC_PN"
+F 5 "SOT-23-6L" H 2450 2850 50  0001 C CNN "LCSC_FP"
+	1    2450 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L LinkMeBaby-rescue:R_Small-Device R5
 U 1 1 609F1B8A
-P 3800 2150
-F 0 "R5" H 3859 2196 50  0000 L CNN
-F 1 "10k" H 3859 2105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3800 2150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811021212_UNI-ROYAL-Uniroyal-Elec-0603WAF1501T5E_C22843.pdf" H 3800 2150 50  0001 C CNN
-F 4 "C22843" H 3800 2150 50  0001 C CNN "LCSC_PN"
-F 5 "0603" H 3800 2150 50  0001 C CNN "LCSC_FP"
-	1    3800 2150
+P 3250 2250
+F 0 "R5" H 3309 2296 50  0000 L CNN
+F 1 "10k" H 3309 2205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3250 2250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811021212_UNI-ROYAL-Uniroyal-Elec-0603WAF1501T5E_C22843.pdf" H 3250 2250 50  0001 C CNN
+F 4 "C22843" H 3250 2250 50  0001 C CNN "LCSC_PN"
+F 5 "0603" H 3250 2250 50  0001 C CNN "LCSC_FP"
+	1    3250 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -438,7 +386,7 @@ F 0 "R3" H 3141 7154 50  0000 R CNN
 F 1 "1k5" H 3141 7245 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3200 7200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1003T5E_C25803.pdf" H 3200 7200 50  0001 C CNN
-F 4 "C72041" H 3200 7200 50  0001 C CNN "LCSC_PN"
+F 4 "C25989" H 3200 7200 50  0001 C CNN "LCSC_PN"
 F 5 "0603" H 3200 7200 50  0001 C CNN "LCSC_FP"
 	1    3200 7200
 	-1   0    0    1   
@@ -451,7 +399,7 @@ F 0 "D1" V 3246 6930 50  0000 R CNN
 F 1 "BLUE" V 3155 6930 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3200 7000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 3200 7000 50  0001 C CNN
-F 4 "C2286" V 3200 7000 50  0001 C CNN "LCSC_PN"
+F 4 "C72041" V 3200 7000 50  0001 C CNN "LCSC_PN"
 F 5 "LED_0603" V 3200 7000 50  0001 C CNN "LCSC_FP"
 	1    3200 7000
 	0    -1   -1   0   
@@ -765,7 +713,7 @@ F 0 "R4" H 3491 7154 50  0000 R CNN
 F 1 "1k5" H 3491 7245 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3550 7200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1003T5E_C25803.pdf" H 3550 7200 50  0001 C CNN
-F 4 "C72041" H 3550 7200 50  0001 C CNN "LCSC_PN"
+F 4 "C25989" H 3550 7200 50  0001 C CNN "LCSC_PN"
 F 5 "0603" H 3550 7200 50  0001 C CNN "LCSC_FP"
 	1    3550 7200
 	-1   0    0    1   
@@ -778,7 +726,7 @@ F 0 "D2" V 3596 6930 50  0000 R CNN
 F 1 "BLUE" V 3505 6930 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3550 7000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 3550 7000 50  0001 C CNN
-F 4 "C2286" V 3550 7000 50  0001 C CNN "LCSC_PN"
+F 4 "C72041" V 3550 7000 50  0001 C CNN "LCSC_PN"
 F 5 "LED_0603" V 3550 7000 50  0001 C CNN "LCSC_FP"
 	1    3550 7000
 	0    -1   -1   0   
@@ -802,7 +750,7 @@ F 0 "R6" H 3841 7154 50  0000 R CNN
 F 1 "1k5" H 3841 7245 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3900 7200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1003T5E_C25803.pdf" H 3900 7200 50  0001 C CNN
-F 4 "C72041" H 3900 7200 50  0001 C CNN "LCSC_PN"
+F 4 "C25989" H 3900 7200 50  0001 C CNN "LCSC_PN"
 F 5 "0603" H 3900 7200 50  0001 C CNN "LCSC_FP"
 	1    3900 7200
 	-1   0    0    1   
@@ -815,7 +763,7 @@ F 0 "D3" V 3946 6930 50  0000 R CNN
 F 1 "BLUE" V 3855 6930 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3900 7000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 3900 7000 50  0001 C CNN
-F 4 "C2286" V 3900 7000 50  0001 C CNN "LCSC_PN"
+F 4 "C72041" V 3900 7000 50  0001 C CNN "LCSC_PN"
 F 5 "LED_0603" V 3900 7000 50  0001 C CNN "LCSC_FP"
 	1    3900 7000
 	0    -1   -1   0   
@@ -839,7 +787,7 @@ F 0 "R7" H 4191 7154 50  0000 R CNN
 F 1 "1k5" H 4191 7245 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4250 7200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1003T5E_C25803.pdf" H 4250 7200 50  0001 C CNN
-F 4 "C72041" H 4250 7200 50  0001 C CNN "LCSC_PN"
+F 4 "C25989" H 4250 7200 50  0001 C CNN "LCSC_PN"
 F 5 "0603" H 4250 7200 50  0001 C CNN "LCSC_FP"
 	1    4250 7200
 	-1   0    0    1   
@@ -852,7 +800,7 @@ F 0 "D4" V 4296 6930 50  0000 R CNN
 F 1 "BLUE" V 4205 6930 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4250 7000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 4250 7000 50  0001 C CNN
-F 4 "C2286" V 4250 7000 50  0001 C CNN "LCSC_PN"
+F 4 "C72041" V 4250 7000 50  0001 C CNN "LCSC_PN"
 F 5 "LED_0603" V 4250 7000 50  0001 C CNN "LCSC_FP"
 	1    4250 7000
 	0    -1   -1   0   
@@ -884,27 +832,12 @@ Wire Wire Line
 Wire Wire Line
 	7800 5050 8150 5050
 Wire Wire Line
-	10250 4950 10250 5050
-Wire Wire Line
 	8850 4950 8850 5050
 Connection ~ 8850 5050
 Wire Wire Line
 	8850 5050 9200 5050
 Wire Wire Line
 	9200 4950 9200 5050
-Connection ~ 9200 5050
-Wire Wire Line
-	9200 5050 9550 5050
-Wire Wire Line
-	9550 4950 9550 5050
-Connection ~ 9550 5050
-Wire Wire Line
-	9550 5050 9900 5050
-Wire Wire Line
-	9900 4950 9900 5050
-Connection ~ 9900 5050
-Wire Wire Line
-	9900 5050 10250 5050
 Wire Wire Line
 	8500 4950 8500 5050
 Connection ~ 8500 5050
@@ -920,22 +853,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 4650 8150 4650
 Wire Wire Line
-	10250 4650 10250 4750
-Wire Wire Line
-	9900 4650 9900 4750
-Connection ~ 9900 4650
-Wire Wire Line
-	9900 4650 10250 4650
-Wire Wire Line
-	9550 4650 9550 4750
-Connection ~ 9550 4650
-Wire Wire Line
-	9550 4650 9900 4650
-Wire Wire Line
 	9200 4650 9200 4750
-Connection ~ 9200 4650
-Wire Wire Line
-	9200 4650 9550 4650
 Wire Wire Line
 	8850 4650 8850 4750
 Connection ~ 8850 4650
@@ -993,133 +911,94 @@ Wire Wire Line
 $Comp
 L LinkMeBaby-rescue:GND-power #PWR021
 U 1 1 60BB20C1
-P 5500 6750
-F 0 "#PWR021" H 5500 6500 50  0001 C CNN
-F 1 "GND" H 5505 6577 50  0000 C CNN
-F 2 "" H 5500 6750 50  0001 C CNN
-F 3 "" H 5500 6750 50  0001 C CNN
-	1    5500 6750
+P 5300 4550
+F 0 "#PWR021" H 5300 4300 50  0001 C CNN
+F 1 "GND" H 5305 4377 50  0000 C CNN
+F 2 "" H 5300 4550 50  0001 C CNN
+F 3 "" H 5300 4550 50  0001 C CNN
+	1    5300 4550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5500 6500 5500 6600
+	5300 4300 5300 4400
 Wire Wire Line
-	5600 6500 5600 6600
+	5400 4300 5400 4400
 Wire Wire Line
-	5600 6600 5500 6600
-Connection ~ 5500 6600
+	5400 4400 5300 4400
+Connection ~ 5300 4400
 Wire Wire Line
-	5500 6600 5500 6750
+	5300 4400 5300 4550
 Wire Wire Line
-	5700 6500 5700 6600
+	5500 4300 5500 4400
 Wire Wire Line
-	5700 6600 5600 6600
-Connection ~ 5600 6600
+	5500 4400 5400 4400
+Connection ~ 5400 4400
 Wire Wire Line
-	5800 6500 5800 6600
-Wire Wire Line
-	5800 6600 5700 6600
-Connection ~ 5700 6600
-Wire Wire Line
-	5900 6500 5900 6600
-Wire Wire Line
-	5900 6600 5800 6600
-Connection ~ 5800 6600
+	5600 4400 5500 4400
+Connection ~ 5500 4400
 $Comp
 L LinkMeBaby-rescue:+3.3V-power #PWR020
 U 1 1 60BC3E10
-P 5400 850
-F 0 "#PWR020" H 5400 700 50  0001 C CNN
-F 1 "+3.3V" H 5415 1023 50  0000 C CNN
-F 2 "" H 5400 850 50  0001 C CNN
-F 3 "" H 5400 850 50  0001 C CNN
-	1    5400 850 
+P 5300 950
+F 0 "#PWR020" H 5300 800 50  0001 C CNN
+F 1 "+3.3V" H 5315 1123 50  0000 C CNN
+F 2 "" H 5300 950 50  0001 C CNN
+F 3 "" H 5300 950 50  0001 C CNN
+	1    5300 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 1000 5400 950 
+	5300 1100 5300 1050
+Connection ~ 5300 1050
 Wire Wire Line
-	6100 1000 6100 950 
+	5300 1050 5300 950 
 Wire Wire Line
-	6100 950  6000 950 
-Connection ~ 5400 950 
+	5400 1050 5400 1100
+Connection ~ 5400 1050
 Wire Wire Line
-	5400 950  5400 850 
+	5400 1050 5300 1050
 Wire Wire Line
-	5500 950  5500 1000
-Connection ~ 5500 950 
+	5500 1050 5500 1100
+Connection ~ 5500 1050
 Wire Wire Line
-	5500 950  5400 950 
+	5500 1050 5400 1050
 Wire Wire Line
-	5600 950  5600 1000
-Connection ~ 5600 950 
+	5600 1050 5600 1100
 Wire Wire Line
-	5600 950  5500 950 
-Wire Wire Line
-	5700 950  5700 1000
-Connection ~ 5700 950 
-Wire Wire Line
-	5700 950  5600 950 
-Wire Wire Line
-	5800 950  5800 1000
-Connection ~ 5800 950 
-Wire Wire Line
-	5800 950  5700 950 
-Wire Wire Line
-	5900 950  5900 1000
-Connection ~ 5900 950 
-Wire Wire Line
-	5900 950  5800 950 
-Wire Wire Line
-	6000 950  6000 1000
-Connection ~ 6000 950 
-Wire Wire Line
-	6000 950  5900 950 
+	5600 1050 5500 1050
 $Comp
 L LinkMeBaby-rescue:GND-power #PWR016
 U 1 1 60BEB314
-P 4100 2250
-F 0 "#PWR016" H 4100 2000 50  0001 C CNN
-F 1 "GND" H 4105 2077 50  0000 C CNN
-F 2 "" H 4100 2250 50  0001 C CNN
-F 3 "" H 4100 2250 50  0001 C CNN
-	1    4100 2250
+P 3550 2350
+F 0 "#PWR016" H 3550 2100 50  0001 C CNN
+F 1 "GND" H 3555 2177 50  0000 C CNN
+F 2 "" H 3550 2350 50  0001 C CNN
+F 3 "" H 3550 2350 50  0001 C CNN
+	1    3550 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L LinkMeBaby-rescue:GND-power #PWR019
 U 1 1 60BEC1EA
-P 4450 2250
-F 0 "#PWR019" H 4450 2000 50  0001 C CNN
-F 1 "GND" H 4455 2077 50  0000 C CNN
-F 2 "" H 4450 2250 50  0001 C CNN
-F 3 "" H 4450 2250 50  0001 C CNN
-	1    4450 2250
+P 3900 2350
+F 0 "#PWR019" H 3900 2100 50  0001 C CNN
+F 1 "GND" H 3905 2177 50  0000 C CNN
+F 2 "" H 3900 2350 50  0001 C CNN
+F 3 "" H 3900 2350 50  0001 C CNN
+	1    3900 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4800 1800 4450 1800
-Wire Wire Line
-	4450 1800 4450 2050
-Wire Wire Line
-	4800 1700 4100 1700
-Wire Wire Line
-	4100 1700 4100 2050
 $Comp
 L LinkMeBaby-rescue:GND-power #PWR014
 U 1 1 60BF9DD6
-P 3800 2250
-F 0 "#PWR014" H 3800 2000 50  0001 C CNN
-F 1 "GND" H 3805 2077 50  0000 C CNN
-F 2 "" H 3800 2250 50  0001 C CNN
-F 3 "" H 3800 2250 50  0001 C CNN
-	1    3800 2250
+P 3250 2350
+F 0 "#PWR014" H 3250 2100 50  0001 C CNN
+F 1 "GND" H 3255 2177 50  0000 C CNN
+F 2 "" H 3250 2350 50  0001 C CNN
+F 3 "" H 3250 2350 50  0001 C CNN
+	1    3250 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3800 2050 3800 1500
-Wire Wire Line
-	3800 1500 4800 1500
 $Comp
 L LinkMeBaby:TC2030-IDC-NL J5
 U 1 1 60C04110
@@ -1174,9 +1053,9 @@ Text GLabel 8150 3500 0    50   Input ~ 0
 NRST
 Text GLabel 4800 1300 0    50   Input ~ 0
 NRST
-Text GLabel 4800 2700 0    50   Input ~ 0
+Text GLabel 4800 2000 0    50   Input ~ 0
 HSE_IN
-Text GLabel 4800 2800 0    50   Input ~ 0
+Text GLabel 4800 2100 0    50   Input ~ 0
 HSE_OUT
 Text GLabel 9300 5650 1    50   Input ~ 0
 HSE_IN
@@ -1370,32 +1249,32 @@ Text GLabel 1650 1550 2    50   Input ~ 0
 USB_CONN_D-
 Text GLabel 1650 1450 2    50   Input ~ 0
 USB_CONN_D-
-Text GLabel 3000 2800 2    50   Input ~ 0
+Text GLabel 2850 2950 2    50   Input ~ 0
 USB_CONN_D+
-Text GLabel 2200 2800 0    50   Input ~ 0
+Text GLabel 2050 2950 0    50   Input ~ 0
 USB_CONN_D-
 $Comp
 L LinkMeBaby-rescue:+5V-power #PWR06
 U 1 1 60DA51E0
-P 2600 2300
-F 0 "#PWR06" H 2600 2150 50  0001 C CNN
-F 1 "+5V" H 2615 2473 50  0000 C CNN
-F 2 "" H 2600 2300 50  0001 C CNN
-F 3 "" H 2600 2300 50  0001 C CNN
-	1    2600 2300
+P 2450 2450
+F 0 "#PWR06" H 2450 2300 50  0001 C CNN
+F 1 "+5V" H 2465 2623 50  0000 C CNN
+F 2 "" H 2450 2450 50  0001 C CNN
+F 3 "" H 2450 2450 50  0001 C CNN
+	1    2450 2450
 	1    0    0    -1  
 $EndComp
-Text GLabel 2200 2600 0    50   Input ~ 0
+Text GLabel 2050 2750 0    50   Input ~ 0
 USB_D-
-Text GLabel 3000 2600 2    50   Input ~ 0
+Text GLabel 2850 2750 2    50   Input ~ 0
 USB_D+
-Text GLabel 6600 1700 2    50   Input ~ 0
+Text GLabel 6100 3000 2    50   Input ~ 0
 SPI1_NSS
-Text GLabel 6600 1800 2    50   Input ~ 0
+Text GLabel 6100 3100 2    50   Input ~ 0
 SPI1_SCK
-Text GLabel 6600 1900 2    50   Input ~ 0
+Text GLabel 6100 3200 2    50   Input ~ 0
 SPI1_MISO
-Text GLabel 6600 2000 2    50   Input ~ 0
+Text GLabel 6100 3300 2    50   Input ~ 0
 SPI1_MOSI
 Text GLabel 2900 5150 2    50   Input ~ 0
 SPI1_NSS
@@ -1416,15 +1295,15 @@ NoConn ~ 2900 4950
 Wire Wire Line
 	7900 2200 8000 2200
 Connection ~ 8000 2200
-Text GLabel 6600 2400 2    50   Input ~ 0
+Text GLabel 6100 3700 2    50   Input ~ 0
 USB_D-
-Text GLabel 6600 2500 2    50   Input ~ 0
+Text GLabel 6100 3800 2    50   Input ~ 0
 USB_D+
-Text GLabel 6600 2600 2    50   Input ~ 0
+Text GLabel 6100 3900 2    50   Input ~ 0
 SWDIO
-Text GLabel 6600 2700 2    50   Input ~ 0
+Text GLabel 6100 4000 2    50   Input ~ 0
 SWCLK
-Text GLabel 6600 3300 2    50   Input ~ 0
+Text GLabel 4800 3000 0    50   Input ~ 0
 SWO
 $Comp
 L LinkMeBaby-rescue:GND-power #PWR01
@@ -1437,17 +1316,17 @@ F 3 "" H 900 4250 50  0001 C CNN
 	1    900  4250
 	0    1    1    0   
 $EndComp
-Text GLabel 6600 5100 2    50   Input ~ 0
+Text GLabel 6100 2900 2    50   Input ~ 0
 DIR
 Text GLabel 900  4350 0    50   Input ~ 0
 DIR
-Text GLabel 6600 3400 2    50   Input ~ 0
+Text GLabel 4800 2800 0    50   Input ~ 0
 STATUS_CK
-Text GLabel 6600 3500 2    50   Input ~ 0
+Text GLabel 4800 2900 0    50   Input ~ 0
 STATUS_SO
-Text GLabel 6600 3600 2    50   Input ~ 0
+Text GLabel 4800 3700 0    50   Input ~ 0
 STATUS_SI
-Text GLabel 6600 3700 2    50   Input ~ 0
+Text GLabel 4800 2700 0    50   Input ~ 0
 STATUS_SD
 Text GLabel 3200 6900 1    50   Input ~ 0
 STATUS_CK
@@ -1457,80 +1336,15 @@ Text GLabel 3900 6900 1    50   Input ~ 0
 STATUS_SI
 Text GLabel 4250 6900 1    50   Input ~ 0
 STATUS_SD
-NoConn ~ 4800 3000
-NoConn ~ 4800 3100
-NoConn ~ 4800 3200
-NoConn ~ 4800 3300
-NoConn ~ 4800 3400
-NoConn ~ 4800 3500
-NoConn ~ 4800 3600
-NoConn ~ 4800 3700
-NoConn ~ 4800 3800
-NoConn ~ 4800 3900
-NoConn ~ 4800 4000
-NoConn ~ 4800 4100
-NoConn ~ 4800 4200
-NoConn ~ 4800 4300
-NoConn ~ 4800 4400
-NoConn ~ 4800 4500
-NoConn ~ 4800 4700
-NoConn ~ 4800 4800
-NoConn ~ 4800 4900
-NoConn ~ 4800 5000
-NoConn ~ 4800 5100
-NoConn ~ 4800 5200
-NoConn ~ 4800 5300
-NoConn ~ 4800 5400
-NoConn ~ 4800 5500
-NoConn ~ 4800 5600
-NoConn ~ 4800 5700
-NoConn ~ 4800 5800
-NoConn ~ 4800 5900
-NoConn ~ 4800 6000
-NoConn ~ 4800 6100
-NoConn ~ 4800 6200
-NoConn ~ 6600 5200
-NoConn ~ 6600 5300
-NoConn ~ 6600 5400
-NoConn ~ 6600 5500
-NoConn ~ 6600 5600
-NoConn ~ 6600 5700
-NoConn ~ 6600 5800
-NoConn ~ 6600 5900
-NoConn ~ 6600 6000
-NoConn ~ 6600 6100
-NoConn ~ 6600 6200
-NoConn ~ 6600 4700
-NoConn ~ 6600 4800
-NoConn ~ 6600 4900
-NoConn ~ 6600 5000
-NoConn ~ 6600 3800
-NoConn ~ 6600 3900
-NoConn ~ 6600 4000
-NoConn ~ 6600 4100
-NoConn ~ 6600 4200
-NoConn ~ 6600 4300
-NoConn ~ 6600 4400
-NoConn ~ 6600 4500
-NoConn ~ 6600 2800
-NoConn ~ 6600 3000
-NoConn ~ 6600 3100
-NoConn ~ 6600 3200
-NoConn ~ 6600 2100
-NoConn ~ 6600 1400
-NoConn ~ 6600 1500
-NoConn ~ 6600 1600
-NoConn ~ 6600 2200
-NoConn ~ 6600 2300
 $Comp
 L LinkMeBaby-rescue:GND-power #PWR07
 U 1 1 612D8576
-P 2600 3100
-F 0 "#PWR07" H 2600 2850 50  0001 C CNN
-F 1 "GND" H 2605 2927 50  0000 C CNN
-F 2 "" H 2600 3100 50  0001 C CNN
-F 3 "" H 2600 3100 50  0001 C CNN
-	1    2600 3100
+P 2450 3250
+F 0 "#PWR07" H 2450 3000 50  0001 C CNN
+F 1 "GND" H 2455 3077 50  0000 C CNN
+F 2 "" H 2450 3250 50  0001 C CNN
+F 3 "" H 2450 3250 50  0001 C CNN
+	1    2450 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1574,4 +1388,34 @@ F 3 "" H 1200 7250 50  0001 C CNN
 	1    1200 7250
 	-1   0    0    1   
 $EndComp
+$Comp
+L STM:STM32F401CBUx U?
+U 1 1 609BFD3C
+P 5500 2700
+F 0 "U?" H 4950 4250 50  0000 C CNN
+F 1 "STM32F401CBUx" H 5950 4250 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 4900 1200 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00086815.pdf" H 5500 2700 50  0001 C CNN
+	1    5500 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1800 4800 1800
+Wire Wire Line
+	3900 1800 3900 2150
+Wire Wire Line
+	3550 1700 4800 1700
+Wire Wire Line
+	3550 1700 3550 2150
+Wire Wire Line
+	3250 1500 3250 2150
+Wire Wire Line
+	3250 1500 4800 1500
+Wire Wire Line
+	5700 4400 5600 4400
+Wire Wire Line
+	5700 4300 5700 4400
+Wire Wire Line
+	5600 4300 5600 4400
+Connection ~ 5600 4400
 $EndSCHEMATC
