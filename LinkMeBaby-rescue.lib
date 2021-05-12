@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# LinkMeBaby-rescue_+3.3V-power
+# +3.3V-power
 #
-DEF LinkMeBaby-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
+DEF +3.3V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "LinkMeBaby-rescue_+3.3V-power" 0 140 50 H V C CNN
+F1 "+3.3V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# LinkMeBaby-rescue_+5V-power
+# +5V-power
 #
-DEF LinkMeBaby-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+DEF +5V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "LinkMeBaby-rescue_+5V-power" 0 140 50 H V C CNN
+F1 "+5V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# LinkMeBaby-rescue_C_Small-Device
+# C_Small-Device
 #
-DEF LinkMeBaby-rescue_C_Small-Device C 0 10 N N 1 F N
+DEF C_Small-Device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "LinkMeBaby-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F1 "C_Small-Device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -49,11 +49,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LinkMeBaby-rescue_Conn_01x06_Female-Connector
+# Conn_01x06_Female-Connector
 #
-DEF LinkMeBaby-rescue_Conn_01x06_Female-Connector J 0 40 Y N 1 F N
+DEF Conn_01x06_Female-Connector J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "LinkMeBaby-rescue_Conn_01x06_Female-Connector" 0 -400 50 H V C CNN
+F1 "Conn_01x06_Female-Connector" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -81,11 +81,11 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LinkMeBaby-rescue_Crystal_GND24_Small-Device
+# Crystal_GND24_Small-Device
 #
-DEF LinkMeBaby-rescue_Crystal_GND24_Small-Device Y 0 40 Y N 1 F N
+DEF Crystal_GND24_Small-Device Y 0 40 Y N 1 F N
 F0 "Y" 50 175 50 H V L CNN
-F1 "LinkMeBaby-rescue_Crystal_GND24_Small-Device" 50 100 50 H V L CNN
+F1 "Crystal_GND24_Small-Device" 50 100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -104,11 +104,11 @@ X 4 4 0 100 25 D 30 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LinkMeBaby-rescue_D_Schottky_Small-Device
+# D_Schottky_Small-Device
 #
-DEF LinkMeBaby-rescue_D_Schottky_Small-Device D 0 10 N N 1 F N
+DEF D_Schottky_Small-Device D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "LinkMeBaby-rescue_D_Schottky_Small-Device" -280 -80 50 H V L CNN
+F1 "D_Schottky_Small-Device" -280 -80 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -126,11 +126,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LinkMeBaby-rescue_Ferrite_Bead_Small-Device
+# Ferrite_Bead_Small-Device
 #
-DEF LinkMeBaby-rescue_Ferrite_Bead_Small-Device FB 0 0 N Y 1 F N
+DEF Ferrite_Bead_Small-Device FB 0 0 N Y 1 F N
 F0 "FB" 75 50 50 H V L CNN
-F1 "LinkMeBaby-rescue_Ferrite_Bead_Small-Device" 75 -50 50 H V L CNN
+F1 "Ferrite_Bead_Small-Device" 75 -50 50 H V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -147,11 +147,11 @@ X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LinkMeBaby-rescue_GND-power
+# GND-power
 #
-DEF LinkMeBaby-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "LinkMeBaby-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -160,11 +160,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# LinkMeBaby-rescue_LED_Small-Device
+# LED_Small-Device
 #
-DEF LinkMeBaby-rescue_LED_Small-Device D 0 10 N N 1 F N
+DEF LED_Small-Device D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "LinkMeBaby-rescue_LED_Small-Device" -175 -100 50 H V L CNN
+F1 "LED_Small-Device" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -183,11 +183,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LinkMeBaby-rescue_L_Small-Device
+# L_Small-Device
 #
-DEF LinkMeBaby-rescue_L_Small-Device L 0 10 N N 1 F N
+DEF L_Small-Device L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
-F1 "LinkMeBaby-rescue_L_Small-Device" 30 -40 50 H V L CNN
+F1 "L_Small-Device" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -206,11 +206,11 @@ X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LinkMeBaby-rescue_Polyfuse_Small-Device
+# Polyfuse_Small-Device
 #
-DEF LinkMeBaby-rescue_Polyfuse_Small-Device F 0 0 N Y 1 F N
+DEF Polyfuse_Small-Device F 0 0 N Y 1 F N
 F0 "F" -75 0 50 V V C CNN
-F1 "LinkMeBaby-rescue_Polyfuse_Small-Device" 75 0 50 V V C CNN
+F1 "Polyfuse_Small-Device" 75 0 50 V V C CNN
 F2 "" 50 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -226,11 +226,11 @@ X ~ 2 0 -100 25 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LinkMeBaby-rescue_R_Small-Device
+# R_Small-Device
 #
-DEF LinkMeBaby-rescue_R_Small-Device R 0 10 N N 1 F N
+DEF R_Small-Device R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "LinkMeBaby-rescue_R_Small-Device" 30 -40 50 H V L CNN
+F1 "R_Small-Device" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -243,11 +243,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LinkMeBaby-rescue_SN74LVC4245APWR-SN74LVC4245APWR
+# SN74LVC4245APWR-SN74LVC4245APWR
 #
-DEF LinkMeBaby-rescue_SN74LVC4245APWR-SN74LVC4245APWR U 0 40 Y Y 1 L N
+DEF SN74LVC4245APWR-SN74LVC4245APWR U 0 40 Y Y 1 L N
 F0 "U" -800 1239 50 H V L BNN
-F1 "LinkMeBaby-rescue_SN74LVC4245APWR-SN74LVC4245APWR" -950 -1300 50 H V L BNN
+F1 "SN74LVC4245APWR-SN74LVC4245APWR" -950 -1300 50 H V L BNN
 F2 "SOP65P640X120-24N" -350 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 DRAW
@@ -279,11 +279,11 @@ X A7 9 1000 100 200 L 40 40 0 0 O
 ENDDRAW
 ENDDEF
 #
-# LinkMeBaby-rescue_STM32F407VETx-MCU_ST_STM32F4
+# STM32F407VETx-MCU_ST_STM32F4
 #
-DEF LinkMeBaby-rescue_STM32F407VETx-MCU_ST_STM32F4 U 0 20 Y Y 1 F N
+DEF STM32F407VETx-MCU_ST_STM32F4 U 0 20 Y Y 1 F N
 F0 "U" -700 2550 50 H V L CNN
-F1 "LinkMeBaby-rescue_STM32F407VETx-MCU_ST_STM32F4" 500 2550 50 H V L CNN
+F1 "STM32F407VETx-MCU_ST_STM32F4" 500 2550 50 H V L CNN
 F2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" -700 -2600 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -394,11 +394,11 @@ X VSS 99 100 -2800 200 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# LinkMeBaby-rescue_USBLC6-2SC6-Power_Protection
+# USBLC6-2SC6-Power_Protection
 #
-DEF LinkMeBaby-rescue_USBLC6-2SC6-Power_Protection U 0 20 Y N 1 F N
+DEF USBLC6-2SC6-Power_Protection U 0 20 Y N 1 F N
 F0 "U" 100 350 50 H V L CNN
-F1 "LinkMeBaby-rescue_USBLC6-2SC6-Power_Protection" 100 -350 50 H V L CNN
+F1 "USBLC6-2SC6-Power_Protection" 100 -350 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6" 0 -500 50 H I C CNN
 F3 "" 200 350 50 H I C CNN
 $FPLIST
@@ -444,11 +444,11 @@ X I/O1 6 -400 100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LinkMeBaby-rescue_USB_C_Receptacle_USB2.0-Connector
+# USB_C_Receptacle_USB2.0-Connector
 #
-DEF LinkMeBaby-rescue_USB_C_Receptacle_USB2.0-Connector J 0 40 Y Y 1 F N
+DEF USB_C_Receptacle_USB2.0-Connector J 0 40 Y Y 1 F N
 F0 "J" -400 750 50 H V L CNN
-F1 "LinkMeBaby-rescue_USB_C_Receptacle_USB2.0-Connector" 750 750 50 H V R CNN
+F1 "USB_C_Receptacle_USB2.0-Connector" 750 750 50 H V R CNN
 F2 "" 150 0 50 H I C CNN
 F3 "" 150 0 50 H I C CNN
 $FPLIST
@@ -499,63 +499,6 @@ X D- B7 600 0 200 L 50 50 1 1 B
 X SBU2 B8 600 -600 200 L 50 50 1 1 B
 X VBUS B9 600 600 200 L 50 50 1 1 P N
 X SHIELD S1 -300 -900 200 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# LinkMeBaby_GBA
-#
-DEF LinkMeBaby_GBA J 0 40 Y Y 1 F N
-F0 "J" 250 -150 50 H V C CNN
-F1 "LinkMeBaby_GBA" 300 -50 50 H V C CNN
-F2 "" 100 300 50 V I C CNN
-F3 "" 100 300 50 V I C CNN
-DRAW
-P 5 0 1 0 -200 -200 200 -200 200 200 -200 200 -200 -200 N
-X VDD 1 100 300 100 D 50 50 1 1 W
-X SO 2 100 -300 100 U 50 50 1 1 O
-X SI 3 0 300 100 D 50 50 1 1 I
-X SD 4 0 -300 100 U 50 50 1 1 B
-X SC 5 -100 300 100 D 50 50 1 1 O
-X GND 6 -100 -300 100 U 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# LinkMeBaby_MP2359DJ-LF-Z
-#
-DEF LinkMeBaby_MP2359DJ-LF-Z U 0 40 Y Y 1 F N
-F0 "U" 250 -300 50 H V C CNN
-F1 "LinkMeBaby_MP2359DJ-LF-Z" 550 -200 50 H V C CNN
-F2 "" 250 -300 50 H I C CNN
-F3 "" 250 -300 50 H I C CNN
-DRAW
-S -200 250 200 -350 0 1 0 N
-X BST 1 300 150 100 L 50 50 1 1 W
-X GND 2 0 -450 100 U 50 50 1 1 w
-X FB 3 300 -50 100 L 50 50 1 1 W
-X IN 5 -300 150 100 R 50 50 1 1 I
-X EN 6 -300 50 100 R 50 50 1 1 I
-X SW 6 300 50 100 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# LinkMeBaby_TC2030-IDC-NL
-#
-DEF LinkMeBaby_TC2030-IDC-NL J 0 40 Y Y 1 L N
-F0 "J" -200 501 50 H V L BNN
-F1 "LinkMeBaby_TC2030-IDC-NL" -200 -400 50 H V L BNN
-F2 "TAG_TC2030-IDC-NL" 0 0 50 H I L BNN
-F3 "" 0 0 50 H I L BNN
-F4 "Tag-Connect" 0 0 50 H I L BNN "MANUFACTURER"
-F5 "MS" 0 0 50 H I L BNN "PARTREV"
-F6 "Manufacturer recommendation" 0 0 50 H I L BNN "STANDARD"
-DRAW
-S -200 -300 200 400 0 0 10 f
-X 1 1 -300 300 100 R 40 40 0 0 P
-X 2 2 -300 200 100 R 40 40 0 0 P
-X 3 3 -300 100 100 R 40 40 0 0 P
-X 4 4 -300 0 100 R 40 40 0 0 P
-X 5 5 -300 -100 100 R 40 40 0 0 P
-X 6 6 -300 -200 100 R 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #

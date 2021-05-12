@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/connor/workspace/gameboy/LinkMeBaby/LinkMeBaby.sch</source>
-    <date>Tue 11 May 2021 07:17:38 PM MDT</date>
-    <tool>Eeschema 5.1.10</tool>
+    <source>C:\Users\konno\Documents\GitHub\gba-link-cable\LinkMeBaby.sch</source>
+    <date>5/11/2021 9:39:27 PM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -27,7 +27,7 @@
         <field name="LCSC_FP">USB-C-SMD_10P-P1.00-L6.8-W8.9</field>
         <field name="LCSC_PN">C283540</field>
       </fields>
-      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <libsource lib="LinkMeBaby-rescue" part="USB_C_Receptacle_USB2.0-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609AD43F</tstamp>
     </comp>
@@ -39,7 +39,7 @@
         <field name="LCSC_FP">LQFP-100_14.0x14.0x0.5P</field>
         <field name="LCSC_PN">C28730</field>
       </fields>
-      <libsource lib="MCU_ST_STM32F4" part="STM32F407VETx" description="ARM Cortex-M4 MCU, 512KB flash, 128KB RAM, 168MHz, 1.8-3.6V, 82 GPIO, LQFP-100"/>
+      <libsource lib="LinkMeBaby-rescue" part="STM32F407VETx-MCU_ST_STM32F4" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609AEAB3</tstamp>
     </comp>
@@ -51,7 +51,7 @@
         <field name="LCSC_FP">0402</field>
         <field name="LCSC_PN">C1525</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="C_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609B1E85</tstamp>
     </comp>
@@ -63,7 +63,7 @@
         <field name="LCSC_FP">0603</field>
         <field name="LCSC_PN">C23630</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="C_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609B2190</tstamp>
     </comp>
@@ -75,7 +75,7 @@
         <field name="LCSC_FP">0603</field>
         <field name="LCSC_PN">C19666</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="C_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609B2F99</tstamp>
     </comp>
@@ -87,7 +87,7 @@
         <field name="LCSC_FP">0402</field>
         <field name="LCSC_PN">C1525</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="C_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609B64C4</tstamp>
     </comp>
@@ -99,7 +99,7 @@
         <field name="LCSC_FP">0402</field>
         <field name="LCSC_PN">C1525</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="C_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609B68C3</tstamp>
     </comp>
@@ -111,7 +111,7 @@
         <field name="LCSC_FP">0402</field>
         <field name="LCSC_PN">C1525</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="C_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609B6CED</tstamp>
     </comp>
@@ -123,7 +123,7 @@
         <field name="LCSC_FP">0402</field>
         <field name="LCSC_PN">C1525</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="C_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609BFFD8</tstamp>
     </comp>
@@ -135,7 +135,7 @@
         <field name="LCSC_FP">0402</field>
         <field name="LCSC_PN">C1525</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="C_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609C02B7</tstamp>
     </comp>
@@ -147,7 +147,7 @@
         <field name="LCSC_FP">0603</field>
         <field name="LCSC_PN">C23630</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="C_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609C7377</tstamp>
     </comp>
@@ -159,7 +159,7 @@
         <field name="LCSC_FP">0402</field>
         <field name="LCSC_PN">C1525</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="C_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609CE440</tstamp>
     </comp>
@@ -171,7 +171,7 @@
         <field name="LCSC_FP">0402</field>
         <field name="LCSC_PN">C1547</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="C_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609D082C</tstamp>
     </comp>
@@ -183,7 +183,7 @@
         <field name="LCSC_FP">0402</field>
         <field name="LCSC_PN">C1547</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="C_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609D0F89</tstamp>
     </comp>
@@ -195,7 +195,7 @@
         <field name="LCSC_FP">SMD-CRY-3225_4P</field>
         <field name="LCSC_PN">C13738</field>
       </fields>
-      <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="Crystal_GND24_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609D256E</tstamp>
     </comp>
@@ -207,7 +207,7 @@
         <field name="LCSC_FP">0402</field>
         <field name="LCSC_PN">C25118</field>
       </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609E4CC8</tstamp>
     </comp>
@@ -219,7 +219,7 @@
         <field name="LCSC_FP">SOT-23-6L</field>
         <field name="LCSC_PN">C7519</field>
       </fields>
-      <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <libsource lib="LinkMeBaby-rescue" part="USBLC6-2SC6-Power_Protection" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609F07E5</tstamp>
     </comp>
@@ -231,7 +231,7 @@
         <field name="LCSC_FP">0603</field>
         <field name="LCSC_PN">C22843</field>
       </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609F1B8A</tstamp>
     </comp>
@@ -243,7 +243,7 @@
         <field name="LCSC_FP">TSSOP-24_4.4x7.8x0.65P</field>
         <field name="LCSC_PN">C7859</field>
       </fields>
-      <libsource lib="SN74LVC4245APWR" part="SN74LVC4245APWR" description=""/>
+      <libsource lib="LinkMeBaby-rescue" part="SN74LVC4245APWR-SN74LVC4245APWR" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609FBBA8</tstamp>
     </comp>
@@ -263,12 +263,12 @@
       <tstamp>60A053AC</tstamp>
     </comp>
     <comp ref="U4">
-      <value>MP2359DJ-LF-Z</value>
+      <value>LMR14006YDDCR</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Sunlord-MWSA0503-100MT_C139506.pdf</datasheet>
       <fields>
         <field name="LCSC_FP">TSOT-23-6</field>
-        <field name="LCSC_PN">C14259</field>
+        <field name="LCSC_PN">C477919</field>
       </fields>
       <libsource lib="LinkMeBaby" part="MP2359DJ-LF-Z" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -282,7 +282,7 @@
         <field name="LCSC_FP">0603</field>
         <field name="LCSC_PN">C25803</field>
       </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A0A01A</tstamp>
     </comp>
@@ -294,7 +294,7 @@
         <field name="LCSC_FP">0603</field>
         <field name="LCSC_PN">C23231</field>
       </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A0A4FA</tstamp>
     </comp>
@@ -306,7 +306,7 @@
         <field name="LCSC_FP">0603</field>
         <field name="LCSC_PN">C25819</field>
       </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A0EE1F</tstamp>
     </comp>
@@ -318,7 +318,7 @@
         <field name="LCSC_FP">0603</field>
         <field name="LCSC_PN">C22809</field>
       </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A0F312</tstamp>
     </comp>
@@ -330,7 +330,7 @@
         <field name="LCSC_FP">0603</field>
         <field name="LCSC_PN">C22966</field>
       </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A0FDAB</tstamp>
     </comp>
@@ -342,7 +342,7 @@
         <field name="LCSC_FP">0603</field>
         <field name="LCSC_PN">C21190</field>
       </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A10CCE</tstamp>
     </comp>
@@ -352,9 +352,9 @@
       <datasheet>https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf</datasheet>
       <fields>
         <field name="LCSC_FP">LED_0603</field>
-        <field name="LCSC_PN">C2286</field>
+        <field name="LCSC_PN">C72044</field>
       </fields>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="LED_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A11FF7</tstamp>
     </comp>
@@ -364,9 +364,9 @@
       <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1003T5E_C25803.pdf</datasheet>
       <fields>
         <field name="LCSC_FP">0603</field>
-        <field name="LCSC_PN">C22843</field>
+        <field name="LCSC_PN">C25989</field>
       </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A148A3</tstamp>
     </comp>
@@ -376,9 +376,9 @@
       <datasheet>https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf</datasheet>
       <fields>
         <field name="LCSC_FP">LED_0603</field>
-        <field name="LCSC_PN">C2286</field>
+        <field name="LCSC_PN">C72041</field>
       </fields>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="LED_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A148AB</tstamp>
     </comp>
@@ -390,19 +390,19 @@
         <field name="LCSC_FP">0603</field>
         <field name="LCSC_PN">C57112</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="C_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A214A6</tstamp>
     </comp>
     <comp ref="D5">
-      <value>B5819W</value>
+      <value>1N5819HW-7-F</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3401A_C15127.pdf</datasheet>
       <fields>
         <field name="LCSC_FP">SOT-23-3L</field>
-        <field name="LCSC_PN">C8598</field>
+        <field name="LCSC_PN">C82544</field>
       </fields>
-      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="D_Schottky_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A29AB7</tstamp>
     </comp>
@@ -414,7 +414,7 @@
         <field name="LCSC_FP">1206</field>
         <field name="LCSC_PN">C369159</field>
       </fields>
-      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="Polyfuse_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A2D964</tstamp>
     </comp>
@@ -426,7 +426,7 @@
         <field name="LCSC_FP">0805</field>
         <field name="LCSC_PN">C1017</field>
       </fields>
-      <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="Ferrite_Bead_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A2F341</tstamp>
     </comp>
@@ -438,19 +438,19 @@
         <field name="LCSC_FP">1206</field>
         <field name="LCSC_PN">C13585</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="C_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A3C88A</tstamp>
     </comp>
     <comp ref="D6">
-      <value>B5819W</value>
+      <value>1N5819HW-7-F</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3401A_C15127.pdf</datasheet>
       <fields>
         <field name="LCSC_FP">SOT-23-3L</field>
-        <field name="LCSC_PN">C8598</field>
+        <field name="LCSC_PN">C82544</field>
       </fields>
-      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="D_Schottky_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A813D3</tstamp>
     </comp>
@@ -462,7 +462,7 @@
         <field name="LCSC_FP"> SMD-5.2x5.4x2.8</field>
         <field name="LCSC_PN">C139506</field>
       </fields>
-      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="L_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A86819</tstamp>
     </comp>
@@ -474,7 +474,7 @@
         <field name="LCSC_FP">1206</field>
         <field name="LCSC_PN">C13585</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="C_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A97605</tstamp>
     </comp>
@@ -486,7 +486,7 @@
         <field name="LCSC_FP">1206</field>
         <field name="LCSC_PN">C13585</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="C_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A9C91F</tstamp>
     </comp>
@@ -496,9 +496,9 @@
       <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1003T5E_C25803.pdf</datasheet>
       <fields>
         <field name="LCSC_FP">0603</field>
-        <field name="LCSC_PN">C22843</field>
+        <field name="LCSC_PN">C25989</field>
       </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60B0A2C4</tstamp>
     </comp>
@@ -508,9 +508,9 @@
       <datasheet>https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf</datasheet>
       <fields>
         <field name="LCSC_FP">LED_0603</field>
-        <field name="LCSC_PN">C2286</field>
+        <field name="LCSC_PN">C72041</field>
       </fields>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="LED_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60B0A2CC</tstamp>
     </comp>
@@ -520,9 +520,9 @@
       <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1003T5E_C25803.pdf</datasheet>
       <fields>
         <field name="LCSC_FP">0603</field>
-        <field name="LCSC_PN">C22843</field>
+        <field name="LCSC_PN">C25989</field>
       </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60B0B222</tstamp>
     </comp>
@@ -532,9 +532,9 @@
       <datasheet>https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf</datasheet>
       <fields>
         <field name="LCSC_FP">LED_0603</field>
-        <field name="LCSC_PN">C2286</field>
+        <field name="LCSC_PN">C72041</field>
       </fields>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="LED_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60B0B22A</tstamp>
     </comp>
@@ -544,9 +544,9 @@
       <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1003T5E_C25803.pdf</datasheet>
       <fields>
         <field name="LCSC_FP">0603</field>
-        <field name="LCSC_PN">C22843</field>
+        <field name="LCSC_PN">C25989</field>
       </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60B0FA13</tstamp>
     </comp>
@@ -556,9 +556,9 @@
       <datasheet>https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf</datasheet>
       <fields>
         <field name="LCSC_FP">LED_0603</field>
-        <field name="LCSC_PN">C2286</field>
+        <field name="LCSC_PN">C72041</field>
       </fields>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="LED_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60B0FA1B</tstamp>
     </comp>
@@ -582,7 +582,7 @@
         <field name="LCSC_FP">0805</field>
         <field name="LCSC_PN">C22843</field>
       </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60D21594</tstamp>
     </comp>
@@ -594,7 +594,7 @@
         <field name="LCSC_FP">0805</field>
         <field name="LCSC_PN">C22843</field>
       </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="LinkMeBaby-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60D27CF0</tstamp>
     </comp>
@@ -602,194 +602,12 @@
       <value>TEST_CONN</value>
       <footprint>Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="LinkMeBaby-rescue" part="Conn_01x06_Female-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>613EF076</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="Connector" part="Conn_01x06_Female">
-      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x06_Female</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
-        <pin num="5" name="Pin_5" type="passive"/>
-        <pin num="6" name="Pin_6" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
-      <description>USB 2.0-only Type-C Receptacle connector</description>
-      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
-      <footprints>
-        <fp>USB*C*Receptacle*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">USB_C_Receptacle_USB2.0</field>
-      </fields>
-      <pins>
-        <pin num="A1" name="GND" type="passive"/>
-        <pin num="A4" name="VBUS" type="passive"/>
-        <pin num="A5" name="CC1" type="BiDi"/>
-        <pin num="A6" name="D+" type="BiDi"/>
-        <pin num="A7" name="D-" type="BiDi"/>
-        <pin num="A8" name="SBU1" type="BiDi"/>
-        <pin num="A9" name="VBUS" type="passive"/>
-        <pin num="A12" name="GND" type="passive"/>
-        <pin num="B1" name="GND" type="passive"/>
-        <pin num="B4" name="VBUS" type="passive"/>
-        <pin num="B5" name="CC2" type="BiDi"/>
-        <pin num="B6" name="D+" type="BiDi"/>
-        <pin num="B7" name="D-" type="BiDi"/>
-        <pin num="B8" name="SBU2" type="BiDi"/>
-        <pin num="B9" name="VBUS" type="passive"/>
-        <pin num="B12" name="GND" type="passive"/>
-        <pin num="S1" name="SHIELD" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="C_Small">
-      <description>Unpolarized capacitor, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>C_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="Crystal_GND24_Small">
-      <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Crystal*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Y</field>
-        <field name="Value">Crystal_GND24_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-        <pin num="4" name="4" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="D_Schottky_Small">
-      <description>Schottky diode, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_Schottky_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="Ferrite_Bead_Small">
-      <description>Ferrite bead, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Inductor_*</fp>
-        <fp>L_*</fp>
-        <fp>*Ferrite*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">FB</field>
-        <field name="Value">Ferrite_Bead_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="LED_Small">
-      <description>Light emitting diode, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>LED*</fp>
-        <fp>LED_SMD:*</fp>
-        <fp>LED_THT:*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="L_Small">
-      <description>Inductor, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Choke_*</fp>
-        <fp>*Coil*</fp>
-        <fp>Inductor_*</fp>
-        <fp>L_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">L_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="Polyfuse_Small">
-      <description>Resettable fuse, polymeric positive temperature coefficient, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>*polyfuse*</fp>
-        <fp>*PTC*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">F</field>
-        <field name="Value">Polyfuse_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="R_Small">
-      <description>Resistor, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="LinkMeBaby" part="GBA">
       <fields>
         <field name="Reference">J</field>
@@ -835,18 +653,180 @@
         <pin num="6" name="6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MCU_ST_STM32F4" part="STM32F407VETx">
-      <aliases>
-        <alias>STM32F407VGTx</alias>
-      </aliases>
-      <description>ARM Cortex-M4 MCU, 512KB flash, 128KB RAM, 168MHz, 1.8-3.6V, 82 GPIO, LQFP-100</description>
-      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf</docs>
+    <libpart lib="LinkMeBaby-rescue" part="C_Small-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LinkMeBaby-rescue" part="Conn_01x06_Female-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LinkMeBaby-rescue" part="Crystal_GND24_Small-Device">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LinkMeBaby-rescue" part="D_Schottky_Small-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LinkMeBaby-rescue" part="Ferrite_Bead_Small-Device">
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LinkMeBaby-rescue" part="LED_Small-Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LinkMeBaby-rescue" part="L_Small-Device">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LinkMeBaby-rescue" part="Polyfuse_Small-Device">
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LinkMeBaby-rescue" part="R_Small-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LinkMeBaby-rescue" part="SN74LVC4245APWR-SN74LVC4245APWR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC4245APWR-SN74LVC4245APWR</field>
+        <field name="Footprint">SOP65P640X120-24N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(5_V)_VCCA" type="power_in"/>
+        <pin num="2" name="DIR" type="input"/>
+        <pin num="3" name="A1" type="output"/>
+        <pin num="4" name="A2" type="output"/>
+        <pin num="5" name="A3" type="output"/>
+        <pin num="6" name="A4" type="output"/>
+        <pin num="7" name="A5" type="output"/>
+        <pin num="8" name="A6" type="output"/>
+        <pin num="9" name="A7" type="output"/>
+        <pin num="10" name="A8" type="output"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="B8" type="output"/>
+        <pin num="15" name="B7" type="output"/>
+        <pin num="16" name="B6" type="output"/>
+        <pin num="17" name="B5" type="output"/>
+        <pin num="18" name="B4" type="output"/>
+        <pin num="19" name="B3" type="output"/>
+        <pin num="20" name="B2" type="output"/>
+        <pin num="21" name="B1" type="output"/>
+        <pin num="22" name="~OE" type="input"/>
+        <pin num="23" name="VCCB_(3.3_V)" type="power_in"/>
+        <pin num="24" name="VCCB_(3.3_V)_2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LinkMeBaby-rescue" part="STM32F407VETx-MCU_ST_STM32F4">
       <footprints>
         <fp>LQFP*14x14mm*P0.5mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">STM32F407VETx</field>
+        <field name="Value">STM32F407VETx-MCU_ST_STM32F4</field>
         <field name="Footprint">Package_QFP:LQFP-100_14x14mm_P0.5mm</field>
       </fields>
       <pins>
@@ -952,15 +932,13 @@
         <pin num="100" name="VDD" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Power_Protection" part="USBLC6-2SC6">
-      <description>Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</description>
-      <docs>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</docs>
+    <libpart lib="LinkMeBaby-rescue" part="USBLC6-2SC6-Power_Protection">
       <footprints>
         <fp>SOT?23*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">USBLC6-2SC6</field>
+        <field name="Value">USBLC6-2SC6-Power_Protection</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
       </fields>
       <pins>
@@ -972,58 +950,41 @@
         <pin num="6" name="I/O1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="SN74LVC4245APWR" part="SN74LVC4245APWR">
+    <libpart lib="LinkMeBaby-rescue" part="USB_C_Receptacle_USB2.0-Connector">
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">SN74LVC4245APWR</field>
-        <field name="Footprint">SOP65P640X120-24N</field>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0-Connector</field>
       </fields>
       <pins>
-        <pin num="1" name="(5_V)_VCCA" type="power_in"/>
-        <pin num="2" name="DIR" type="input"/>
-        <pin num="3" name="A1" type="output"/>
-        <pin num="4" name="A2" type="output"/>
-        <pin num="5" name="A3" type="output"/>
-        <pin num="6" name="A4" type="output"/>
-        <pin num="7" name="A5" type="output"/>
-        <pin num="8" name="A6" type="output"/>
-        <pin num="9" name="A7" type="output"/>
-        <pin num="10" name="A8" type="output"/>
-        <pin num="11" name="GND" type="power_in"/>
-        <pin num="12" name="GND" type="power_in"/>
-        <pin num="13" name="GND" type="power_in"/>
-        <pin num="14" name="B8" type="output"/>
-        <pin num="15" name="B7" type="output"/>
-        <pin num="16" name="B6" type="output"/>
-        <pin num="17" name="B5" type="output"/>
-        <pin num="18" name="B4" type="output"/>
-        <pin num="19" name="B3" type="output"/>
-        <pin num="20" name="B2" type="output"/>
-        <pin num="21" name="B1" type="output"/>
-        <pin num="22" name="~OE" type="input"/>
-        <pin num="23" name="VCCB_(3.3_V)" type="power_in"/>
-        <pin num="24" name="VCCB_(3.3_V)_2" type="power_in"/>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
-    <library logical="Connector">
-      <uri>/usr/share/kicad/library/Connector.lib</uri>
-    </library>
-    <library logical="Device">
-      <uri>/usr/share/kicad/library/Device.lib</uri>
-    </library>
     <library logical="LinkMeBaby">
-      <uri>/home/connor/workspace/gameboy/LinkMeBaby/LinkMeBaby.lib</uri>
+      <uri>C:\Users\konno\Documents\GitHub\gba-link-cable/LinkMeBaby.lib</uri>
     </library>
-    <library logical="MCU_ST_STM32F4">
-      <uri>/usr/share/kicad/library/MCU_ST_STM32F4.lib</uri>
-    </library>
-    <library logical="Power_Protection">
-      <uri>/usr/share/kicad/library/Power_Protection.lib</uri>
-    </library>
-    <library logical="SN74LVC4245APWR">
-      <uri>/home/connor/workspace/gameboy/LinkMeBaby/SN74LVC4245APWR/SN74LVC4245APWR.lib</uri>
+    <library logical="LinkMeBaby-rescue">
+      <uri>C:\Users\konno\Documents\GitHub\gba-link-cable/LinkMeBaby-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -1032,15 +993,12 @@
       <node ref="R5" pin="1"/>
     </net>
     <net code="2" name="GND">
-      <node ref="U3" pin="27"/>
+      <node ref="U3" pin="99"/>
       <node ref="R1" pin="2"/>
       <node ref="R7" pin="1"/>
-      <node ref="U3" pin="10"/>
-      <node ref="U3" pin="74"/>
-      <node ref="U3" pin="99"/>
-      <node ref="U3" pin="20"/>
       <node ref="C4" pin="2"/>
       <node ref="C1" pin="2"/>
+      <node ref="U3" pin="74"/>
       <node ref="Y1" pin="2"/>
       <node ref="Y1" pin="4"/>
       <node ref="J2" pin="6"/>
@@ -1049,6 +1007,7 @@
       <node ref="R6" pin="1"/>
       <node ref="C5" pin="2"/>
       <node ref="U1" pin="22"/>
+      <node ref="R4" pin="1"/>
       <node ref="R5" pin="2"/>
       <node ref="U1" pin="11"/>
       <node ref="U1" pin="12"/>
@@ -1072,25 +1031,27 @@
       <node ref="C15" pin="2"/>
       <node ref="C8" pin="2"/>
       <node ref="C12" pin="2"/>
+      <node ref="U3" pin="20"/>
+      <node ref="U3" pin="27"/>
       <node ref="J1" pin="A12"/>
       <node ref="J1" pin="B12"/>
+      <node ref="U3" pin="10"/>
       <node ref="D6" pin="2"/>
       <node ref="C7" pin="2"/>
       <node ref="C9" pin="2"/>
-      <node ref="R4" pin="1"/>
       <node ref="J5" pin="5"/>
     </net>
     <net code="3" name="Net-(C2-Pad1)">
-      <node ref="U3" pin="73"/>
       <node ref="C2" pin="1"/>
+      <node ref="U3" pin="73"/>
     </net>
     <net code="4" name="Net-(C1-Pad1)">
       <node ref="U3" pin="49"/>
       <node ref="C1" pin="1"/>
     </net>
     <net code="5" name="SWDIO">
-      <node ref="U3" pin="72"/>
       <node ref="J5" pin="2"/>
+      <node ref="U3" pin="72"/>
     </net>
     <net code="6" name="SWCLK">
       <node ref="J5" pin="4"/>
@@ -1101,29 +1062,29 @@
       <node ref="J5" pin="6"/>
     </net>
     <net code="8" name="+3V3">
-      <node ref="C11" pin="1"/>
-      <node ref="C3" pin="1"/>
       <node ref="C14" pin="1"/>
+      <node ref="C11" pin="1"/>
       <node ref="C10" pin="1"/>
-      <node ref="U3" pin="6"/>
-      <node ref="C4" pin="1"/>
-      <node ref="U3" pin="100"/>
-      <node ref="U3" pin="11"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C15" pin="1"/>
       <node ref="U3" pin="19"/>
-      <node ref="U3" pin="28"/>
-      <node ref="U3" pin="50"/>
+      <node ref="C4" pin="1"/>
       <node ref="U3" pin="75"/>
-      <node ref="U3" pin="22"/>
+      <node ref="C3" pin="1"/>
       <node ref="C5" pin="1"/>
       <node ref="U1" pin="24"/>
       <node ref="U1" pin="23"/>
       <node ref="J5" pin="1"/>
       <node ref="D7" pin="2"/>
       <node ref="R8" pin="1"/>
-      <node ref="C13" pin="1"/>
-      <node ref="C15" pin="1"/>
+      <node ref="U3" pin="22"/>
+      <node ref="U3" pin="28"/>
+      <node ref="U3" pin="100"/>
+      <node ref="U3" pin="50"/>
+      <node ref="U3" pin="6"/>
       <node ref="L1" pin="2"/>
-      <node ref="C6" pin="1"/>
+      <node ref="U3" pin="11"/>
       <node ref="C9" pin="1"/>
     </net>
     <net code="9" name="Net-(J3-Pad4)">
@@ -1261,8 +1222,8 @@
       <node ref="U3" pin="88"/>
     </net>
     <net code="53" name="Net-(D5-Pad1)">
-      <node ref="F1" pin="1"/>
       <node ref="D5" pin="1"/>
+      <node ref="F1" pin="1"/>
     </net>
     <net code="54" name="Net-(U3-Pad77)">
       <node ref="U3" pin="77"/>
@@ -1335,19 +1296,19 @@
     </net>
     <net code="77" name="+5V">
       <node ref="J1" pin="B9"/>
-      <node ref="J1" pin="A9"/>
-      <node ref="U2" pin="5"/>
       <node ref="D5" pin="2"/>
-      <node ref="J1" pin="B4"/>
+      <node ref="U2" pin="5"/>
+      <node ref="J1" pin="A9"/>
       <node ref="J1" pin="A4"/>
+      <node ref="J1" pin="B4"/>
     </net>
     <net code="78" name="Net-(J1-PadB5)">
       <node ref="R2" pin="1"/>
       <node ref="J1" pin="B5"/>
     </net>
     <net code="79" name="Net-(J1-PadA5)">
-      <node ref="J1" pin="A5"/>
       <node ref="R1" pin="1"/>
+      <node ref="J1" pin="A5"/>
     </net>
     <net code="80" name="Net-(U3-Pad97)">
       <node ref="U3" pin="97"/>
@@ -1385,99 +1346,99 @@
     <net code="91" name="Net-(U1-Pad10)">
       <node ref="U1" pin="10"/>
     </net>
-    <net code="92" name="Net-(U3-Pad21)">
-      <node ref="U3" pin="21"/>
+    <net code="92" name="STATUS_CK">
+      <node ref="U3" pin="90"/>
+      <node ref="D1" pin="2"/>
     </net>
-    <net code="93" name="HSE_OUT">
-      <node ref="Y1" pin="1"/>
-      <node ref="U3" pin="13"/>
-      <node ref="C8" pin="1"/>
+    <net code="93" name="STATUS_SO">
+      <node ref="D2" pin="2"/>
+      <node ref="U3" pin="91"/>
     </net>
-    <net code="94" name="HSE_IN">
-      <node ref="R11" pin="1"/>
-      <node ref="U3" pin="12"/>
+    <net code="94" name="STATUS_SI">
+      <node ref="U3" pin="92"/>
+      <node ref="D3" pin="2"/>
     </net>
-    <net code="95" name="Net-(C12-Pad1)">
+    <net code="95" name="STATUS_SD">
+      <node ref="D4" pin="2"/>
+      <node ref="U3" pin="93"/>
+    </net>
+    <net code="96" name="Net-(C12-Pad1)">
       <node ref="R11" pin="2"/>
       <node ref="Y1" pin="3"/>
       <node ref="C12" pin="1"/>
     </net>
-    <net code="96" name="SPI1_SCK">
-      <node ref="U3" pin="30"/>
-      <node ref="U1" pin="19"/>
+    <net code="97" name="HSE_IN">
+      <node ref="U3" pin="12"/>
+      <node ref="R11" pin="1"/>
     </net>
-    <net code="97" name="SPI1_NSS">
-      <node ref="U3" pin="29"/>
-      <node ref="U1" pin="20"/>
+    <net code="98" name="HSE_OUT">
+      <node ref="C8" pin="1"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="U3" pin="13"/>
     </net>
-    <net code="98" name="SPI1_MISO">
-      <node ref="U3" pin="31"/>
-      <node ref="U1" pin="18"/>
-    </net>
-    <net code="99" name="SPI1_MOSI">
-      <node ref="U1" pin="21"/>
-      <node ref="U3" pin="32"/>
-    </net>
-    <net code="100" name="USB_CONN_D+">
-      <node ref="J1" pin="B6"/>
-      <node ref="J1" pin="A6"/>
-      <node ref="U2" pin="3"/>
-    </net>
-    <net code="101" name="USB_CONN_D-">
-      <node ref="J1" pin="B7"/>
-      <node ref="J1" pin="A7"/>
-      <node ref="U2" pin="1"/>
-    </net>
-    <net code="102" name="NRST">
+    <net code="99" name="NRST">
       <node ref="J5" pin="3"/>
       <node ref="U3" pin="14"/>
     </net>
-    <net code="103" name="Net-(U3-Pad23)">
+    <net code="100" name="Net-(U3-Pad21)">
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="101" name="Net-(U3-Pad23)">
       <node ref="U3" pin="23"/>
     </net>
-    <net code="104" name="DIR">
-      <node ref="U3" pin="33"/>
+    <net code="102" name="SPI1_NSS">
+      <node ref="U3" pin="29"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="103" name="USB_CONN_D+">
+      <node ref="U2" pin="3"/>
+      <node ref="J1" pin="B6"/>
+      <node ref="J1" pin="A6"/>
+    </net>
+    <net code="104" name="USB_CONN_D-">
+      <node ref="U2" pin="1"/>
+      <node ref="J1" pin="A7"/>
+      <node ref="J1" pin="B7"/>
+    </net>
+    <net code="105" name="SPI1_SCK">
+      <node ref="U1" pin="19"/>
+      <node ref="U3" pin="30"/>
+    </net>
+    <net code="106" name="SPI1_MISO">
+      <node ref="U1" pin="18"/>
+      <node ref="U3" pin="31"/>
+    </net>
+    <net code="107" name="SPI1_MOSI">
+      <node ref="U1" pin="21"/>
+      <node ref="U3" pin="32"/>
+    </net>
+    <net code="108" name="DIR">
       <node ref="U1" pin="2"/>
-    </net>
-    <net code="105" name="STATUS_CK">
-      <node ref="U3" pin="90"/>
-      <node ref="D1" pin="2"/>
-    </net>
-    <net code="106" name="STATUS_SO">
-      <node ref="U3" pin="91"/>
-      <node ref="D2" pin="2"/>
-    </net>
-    <net code="107" name="STATUS_SI">
-      <node ref="D3" pin="2"/>
-      <node ref="U3" pin="92"/>
-    </net>
-    <net code="108" name="STATUS_SD">
-      <node ref="U3" pin="93"/>
-      <node ref="D4" pin="2"/>
+      <node ref="U3" pin="33"/>
     </net>
     <net code="109" name="Net-(F1-Pad2)">
       <node ref="FB1" pin="1"/>
       <node ref="F1" pin="2"/>
     </net>
     <net code="110" name="Net-(D2-Pad1)">
-      <node ref="D2" pin="1"/>
       <node ref="R4" pin="2"/>
+      <node ref="D2" pin="1"/>
     </net>
     <net code="111" name="Net-(D3-Pad1)">
-      <node ref="D3" pin="1"/>
       <node ref="R6" pin="2"/>
+      <node ref="D3" pin="1"/>
     </net>
     <net code="112" name="EDGE_SC">
-      <node ref="U1" pin="5"/>
+      <node ref="J4" pin="5"/>
       <node ref="J2" pin="2"/>
       <node ref="J3" pin="5"/>
-      <node ref="J4" pin="5"/>
+      <node ref="U1" pin="5"/>
     </net>
     <net code="113" name="EDGE_SO">
       <node ref="J4" pin="2"/>
+      <node ref="J2" pin="1"/>
       <node ref="J3" pin="2"/>
       <node ref="U1" pin="6"/>
-      <node ref="J2" pin="1"/>
     </net>
     <net code="114" name="USB_D+">
       <node ref="U2" pin="4"/>
@@ -1501,42 +1462,42 @@
     </net>
     <net code="119" name="EDGE_SD">
       <node ref="J2" pin="3"/>
-      <node ref="U1" pin="4"/>
       <node ref="J4" pin="4"/>
+      <node ref="U1" pin="4"/>
     </net>
     <net code="120" name="EDGE_VDD">
       <node ref="J4" pin="1"/>
       <node ref="J3" pin="1"/>
-      <node ref="U1" pin="1"/>
       <node ref="J2" pin="5"/>
+      <node ref="U1" pin="1"/>
     </net>
     <net code="121" name="EDGE_SI">
-      <node ref="J3" pin="3"/>
       <node ref="J2" pin="4"/>
       <node ref="J4" pin="3"/>
       <node ref="U1" pin="3"/>
+      <node ref="J3" pin="3"/>
     </net>
     <net code="122" name="BUCK_FB">
+      <node ref="U4" pin="3"/>
       <node ref="R9" pin="1"/>
       <node ref="R8" pin="2"/>
-      <node ref="U4" pin="3"/>
     </net>
     <net code="123" name="BUCK_EN">
-      <node ref="R12" pin="2"/>
       <node ref="R13" pin="1"/>
+      <node ref="R12" pin="2"/>
       <node ref="U4" pin="6"/>
     </net>
     <net code="124" name="BUCK_SW">
-      <node ref="D6" pin="1"/>
       <node ref="U4" pin="6"/>
-      <node ref="C16" pin="2"/>
+      <node ref="D6" pin="1"/>
       <node ref="L1" pin="1"/>
+      <node ref="C16" pin="2"/>
     </net>
     <net code="125" name="BUCK_IN">
-      <node ref="FB1" pin="2"/>
       <node ref="C7" pin="1"/>
       <node ref="R12" pin="1"/>
       <node ref="U4" pin="5"/>
+      <node ref="FB1" pin="2"/>
     </net>
   </nets>
 </export>
