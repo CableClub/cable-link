@@ -3,7 +3,6 @@
 *.tsv
 *.xml
 # backup files
- *.sch-bak
- *.kicad_pcb-bak
- *.bak
- *.bck
+*.*-bak
+*.bak
+*.bck
