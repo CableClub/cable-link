@@ -2,7 +2,19 @@
 *.csv
 *.tsv
 *.xml
+
 # backup files
 *.*-bak
 *.bak
 *.bck
+
+# Build output
+DEBUG
+*.o
+*.d
+*.bin
+*.elf
+*.map
+*.list
+src/Debug
+src/Debug/**/*
