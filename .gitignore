@@ -18,3 +18,5 @@ DEBUG
 *.list
 src/Debug
 src/Debug/**/*
+.vscode
+.pio
