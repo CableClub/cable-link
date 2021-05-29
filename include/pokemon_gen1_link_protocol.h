@@ -28,8 +28,6 @@ typedef enum
 	SEND_PATCH
 } trade_centre_state_t;
 
-typedef unsigned char byte;
-
 #define PKMN_BLANK 0x00
 
 #define ITEM_1_HIGHLIGHTED 0xD0
