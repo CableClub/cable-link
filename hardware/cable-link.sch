@@ -1365,7 +1365,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 700 6150 50  0001 C CNN
 F 3 "~" H 700 6150 50  0001 C CNN
 F 4 "0402" H 700 6150 50  0001 C CNN "LCSC_FP"
 F 5 "C387970" H 700 6150 50  0001 C CNN "LCSC_PN"
-F 6 " 	Walsin Tech Corp" H 700 6150 50  0001 C CNN "Manufacturer"
+F 6 "Walsin Tech Corp" H 700 6150 50  0001 C CNN "Manufacturer"
 F 7 "0402N150G500CT" H 700 6150 50  0001 C CNN "Mfg Part #"
 	1    700  6150
 	1    0    0    -1  
@@ -1380,7 +1380,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 1400 6150 50  0001 C CNN
 F 3 "~" H 1400 6150 50  0001 C CNN
 F 4 "0402" H 1400 6150 50  0001 C CNN "LCSC_FP"
 F 5 "C387970" H 1400 6150 50  0001 C CNN "LCSC_PN"
-F 6 " 	Walsin Tech Corp" H 1400 6150 50  0001 C CNN "Manufacturer"
+F 6 "Walsin Tech Corp" H 1400 6150 50  0001 C CNN "Manufacturer"
 F 7 "0402N150G500CT" H 1400 6150 50  0001 C CNN "Mfg Part #"
 	1    1400 6150
 	1    0    0    -1  
