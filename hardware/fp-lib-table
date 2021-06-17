@@ -1,4 +1,7 @@
 (fp_lib_table
-  (lib (name SN74LVC4245APWR)(type KiCad)(uri /home/connor/workspace/gameboy/LinkMeBaby/hardware/library/SN74LVC4245APWR.pretty)(options "")(descr ""))
-  (lib (name LinkMeBaby)(type KiCad)(uri /home/connor/workspace/gameboy/LinkMeBaby/hardware/library/LinkMeBaby.pretty)(options "")(descr ""))
+  (lib (name seeed-xiao)(type KiCad)(uri /home/connor/workspace/sixtyeightplus.one/cableclub/cable-link/hardware/library/seeed-xiao)(options "")(descr ""))
+  (lib (name SN74LVC4245APWR)(type KiCad)(uri /home/connor/workspace/sixtyeightplus.one/cableclub/cable-link/hardware/library/SN74LVC4245APWR.pretty)(options "")(descr ""))
+  (lib (name rp2048)(type KiCad)(uri /home/connor/workspace/sixtyeightplus.one/cableclub/cable-link/hardware/library/MCU_RaspberryPi_RP2040.pretty)(options "")(descr ""))
+  (lib (name Connector_GBA)(type KiCad)(uri /home/connor/workspace/sixtyeightplus.one/cableclub/cable-link/hardware/library/cable-link.pretty)(options "")(descr ""))
+  (lib (name Connector_USB_C_JLCPCB)(type KiCad)(uri /home/connor/workspace/sixtyeightplus.one/cableclub/cable-link/hardware/library/USB-C-Power-tester.pretty)(options "")(descr ""))
 )

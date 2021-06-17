@@ -20,3 +20,5 @@ src/Debug
 src/Debug/**/*
 .vscode
 .pio
+
+hardware/Minimal/
