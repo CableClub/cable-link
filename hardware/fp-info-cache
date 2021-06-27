@@ -1,4 +1,4 @@
-19228407848227903
+19225805883154569
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -10679,15 +10679,8 @@ GBA-LINK
 
 
 0
-0
-0
-Connector_GBA
-TAG_TC2030-IDC-NL
-
-
-0
-6
-6
+8
+8
 Connector_GBA
 gba-logo
 
@@ -44652,21 +44645,21 @@ Mini USB 2.0 Type B
 0
 9
 6
-Connector_USB_C_JLCPCB
+Connector_USBC
 TYPE-C-31-M-04
 USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
 USB C Type-C Receptacle Hybrid
 0
 28
 25
-Connector_USB_C_JLCPCB
+Connector_USBC
 TYPE-C-31-M-12
 Korean Hroparts Elec, Power only USB connector supporting up to 3A
 
 0
 20
 17
-Connector_USB_C_JLCPCB
+Connector_USBC
 TYPE-C-31-M-17
 Korean Hroparts Elec, Power only USB connector supporting up to 3A
 
@@ -56265,6 +56258,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MCU_RaspberryPi_RP2040
+RP2040-QFN-56
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+70
+57
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -76348,13 +76348,6 @@ rotary encoder
 0
 5
 4
-SN74LVC4245APWR
-SOP65P640X120-24N
-
-
-0
-24
-24
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -83089,17 +83082,3 @@ varistor SIOV
 0
 2
 2
-rp2048
-RP2040-QFN-56
-QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
-0
-70
-57
-seeed-xiao
-Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM
-
-
-0
-14
-14

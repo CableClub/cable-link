@@ -1,8 +1,6 @@
 (fp_lib_table
-  (lib (name seeed-xiao)(type KiCad)(uri /home/connor/workspace/sixtyeightplus.one/cableclub/cable-link/hardware/library/seeed-xiao)(options "")(descr ""))
-  (lib (name SN74LVC4245APWR)(type KiCad)(uri /home/connor/workspace/sixtyeightplus.one/cableclub/cable-link/hardware/library/SN74LVC4245APWR.pretty)(options "")(descr ""))
-  (lib (name rp2048)(type KiCad)(uri /home/connor/workspace/sixtyeightplus.one/cableclub/cable-link/hardware/library/MCU_RaspberryPi_RP2040.pretty)(options "")(descr ""))
-  (lib (name Connector_GBA)(type KiCad)(uri /home/connor/workspace/sixtyeightplus.one/cableclub/cable-link/hardware/library/cable-link.pretty)(options "")(descr ""))
-  (lib (name Connector_USB_C_JLCPCB)(type KiCad)(uri /home/connor/workspace/sixtyeightplus.one/cableclub/cable-link/hardware/library/USB-C-Power-tester.pretty)(options "")(descr ""))
-  (lib (name Connector_SWD)(type KiCad)(uri /home/connor/workspace/sixtyeightplus.one/cableclub/cable-link/hardware/library/CONN_SWD.pretty)(options "")(descr ""))
+  (lib (name Connector_SWD)(type KiCad)(uri C:/Users/konno/Documents/cable-link/library/Connector_SWD.pretty)(options "")(descr ""))
+  (lib (name Connector_USBC)(type KiCad)(uri C:/Users/konno/Documents/cable-link/library/Connector_USBC.pretty)(options "")(descr ""))
+  (lib (name MCU_RaspberryPi_RP2040)(type KiCad)(uri C:/Users/konno/Documents/cable-link/library/MCU_RaspberryPi_RP2040.pretty)(options "")(descr ""))
+  (lib (name Connector_GBA)(type KiCad)(uri C:/Users/konno/Documents/cable-link/library/Connector_GBA.pretty)(options "")(descr ""))
 )

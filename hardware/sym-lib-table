@@ -1,7 +1,5 @@
 (sym_lib_table
-  (lib (name seeed-xiao)(type Legacy)(uri "/home/connor/workspace/sixtyeightplus.one/cableclub/cable-link/hardware/library/seeed-xiao/Seeeduino XIAO.lib")(options "")(descr ""))
-  (lib (name SN74LVC4245APWR)(type Legacy)(uri /home/connor/workspace/sixtyeightplus.one/cableclub/cable-link/hardware/library/SN74LVC4245APWR/SN74LVC4245APWR.lib)(options "")(descr ""))
-  (lib (name cable-link)(type Legacy)(uri /home/connor/workspace/sixtyeightplus.one/cableclub/cable-link/hardware/library/cable-link/cable-link.lib)(options "")(descr ""))
-  (lib (name rp2040)(type Legacy)(uri /home/connor/workspace/sixtyeightplus.one/cableclub/cable-link/hardware/library/MCU_RaspberryPi_RP2040/MCU_RaspberryPi_RP2040.lib)(options "")(descr ""))
-  (lib (name CONN_SWD)(type Legacy)(uri /home/connor/workspace/sixtyeightplus.one/cableclub/cable-link/hardware/library/CONN_SWD/20021221-00010C4LF.lib)(options "")(descr ""))
+  (lib (name MCU_RaspberryPi_RP2040)(type Legacy)(uri C:/Users/konno/Documents/cable-link/library/MCU_RaspberryPi_RP2040/MCU_RaspberryPi_RP2040.lib)(options "")(descr ""))
+  (lib (name Connector_SWD)(type Legacy)(uri C:/Users/konno/Documents/cable-link/library/Connector_SWD/20021221-00010C4LF.lib)(options "")(descr ""))
+  (lib (name Connector_GBA)(type Legacy)(uri ${KIPRJMOD}/library/Connector_GBA/Connector_GBA.lib)(options "")(descr ""))
 )
