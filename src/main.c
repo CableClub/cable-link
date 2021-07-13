@@ -1,8 +1,9 @@
+#include <stdio.h>
+
+#include "pico/stdlib.h"
+#include "hardware/spi.h"
+
 #include "pokemon_gen1_link_protocol.h"
-#include "spi.h"
-#include "uart.h"
-#include <avr/interrupt.h>
-#include <util/delay.h>
 
 uint8_t out = 0x1;
 uint8_t in = 0xfe;
@@ -11,11 +12,30 @@ volatile connection_state_t connection_state = UNKNOWN;
 volatile trade_centre_state_t trade_centre_state = INIT;
 int trade_buffer_index = 0;
 
+uint8_t spi_tranceiver(uint8_t send)
+{
+  uint8_t recv = 0;
+  // spi_write_blocking(spi_default, &send, 1);
+  spi_write_read_blocking(spi_default, &send, &recv, 1);
+  return recv;
+}
+
+void uart_putchar(char c)
+{
+  puts(&c);
+}
+
+int uart_getchar(FILE *stream)
+{
+  char data;
+  gets(&data);
+  return data;
+}
+
 int main()
 {
-  cli();
-  uart_init();
-  spi_init_master();
+  stdio_init_all();
+  spi_init(spi_default, 500 * 1000);
 
   while (1 == 1)
   {
@@ -124,6 +144,6 @@ int main()
     default:
       break;
     }
-    _delay_ms(250);
+    sleep_ms(250);
   }
 }

@@ -22,3 +22,5 @@ src/Debug/**/*
 .pio
 
 hardware/Minimal/
+pico-sdk
+build
