@@ -15,6 +15,7 @@ int main()
 {
   stdio_init_all();
   spi_init_master();
+
   while (1 == 1)
   {
     in = spi_tranceiver(out);
